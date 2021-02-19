@@ -56,3 +56,24 @@ margin-left: 10px;
 .footer p {
   margin : 10px
 }
+
+.content {
+  min-height: 700px;
+}
+
+.notFound {
+  text-align: center;
+}
+
+.notFound h1 {
+  font-size:40px;
+}
+
+.notFound p {
+  font-size: 20px;
+}
+
+.notFound a {
+  color:darkblue;
+  font-size: 20px;
+}
