@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export const getStaticProps = async() => {
 
@@ -27,10 +28,12 @@ const Projects = ({posts}) => {
             <h1>Projects :</h1>
             {
                 posts.map(item=>(
-                    <div className="postsContianer" key={item.id}>
+                    <Link href={`/projects/${item.id}`}>
+                     <div className="postsContianer" key={item.id}>
                         <p className="postsTitle">{item.title}</p>
                         <p className="postsBody">{item.body}</p>
                     </div>
+                    </Link>
                 ))
             }
         </div>
