@@ -1,7 +1,8 @@
 const Footer = () => {
     return ( 
         <div className="footer">
-            All right reserved  2222 @ Lorem Ipsum
+          <p>All right reserved  2222</p>   
+          <p>@ Lorem Ipsum</p>
         </div>
      );
 }
