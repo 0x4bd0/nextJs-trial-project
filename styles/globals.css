@@ -13,4 +13,37 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family:  "Ubuntu"
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+nav {
+  display: flex;
+    margin: 10px auto 80px;
+    padding: 10px 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: 1px solid grey;
+}
+
+
+nav .logo {
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.logo h1 {
+  margin : 0px
+}
+
+nav .links {
+  margin-left: auto;
+}
+
+.links a {
+margin-left: 10px;
 }
